@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 0) {
+        VStack (spacing: 0){
             Color.black
-            Color.blue
+            
+            Color.gray
         }
         .edgesIgnoringSafeArea(.all)
     }
@@ -20,3 +21,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
