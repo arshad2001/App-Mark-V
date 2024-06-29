@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 0) {
             Color.black
-            Color.gray
+            Color.blue
         }
         .edgesIgnoringSafeArea(.all)
     }
