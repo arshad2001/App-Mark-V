@@ -9,11 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 0) {
-            Color.black
-            Color.blue
+        VStack(spacing: 8) {
+            //TopView
+            TopView()
+            
+            //BottomView and MiddleView
+            Color.white
+                .cornerRadius(8)
         }
+        .cornerRadius(50)
+        .padding(8)
+        .background(mainGray)
         .edgesIgnoringSafeArea(.all)
+        
     }
 }
 
